@@ -1,0 +1,29 @@
+database:
+  master:
+    engine: "postgres"
+    username: "postgres"
+    password: "123456"
+    host: "localhost"
+    port: "5432"
+    db: "postgres"
+  slaves:
+    - database.slave1
+  slave1:
+    engine: "postgres"
+    username: "postgres"
+    password: "123456"
+    host: "localhost"
+    port: "5432"
+    db: "postgres"
+  activity:
+    host: "localhost"
+    port: "27017"
+    db: "activity"
+    username: ""
+    password: ""
+smtp:
+  brevo:
+    host: smtp-relay.brevo.com
+    port: 587
+    username: gharshit1237@gmail.com
+    password: h79SvLKOktXR5nH0
