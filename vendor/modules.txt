@@ -1,6 +1,11 @@
 # github.com/BurntSushi/toml v0.3.1
 ## explicit
 github.com/BurntSushi/toml
+# github.com/TeamTutx/pg-shifter v0.0.0-20230823161324-8e60f1b9b19b
+## explicit; go 1.18
+github.com/TeamTutx/pg-shifter
+github.com/TeamTutx/pg-shifter/model
+github.com/TeamTutx/pg-shifter/util
 # github.com/bytedance/sonic v1.9.1
 ## explicit; go 1.15
 github.com/bytedance/sonic
@@ -27,6 +32,12 @@ github.com/bytedance/sonic/utf8
 # github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311
 ## explicit; go 1.15
 github.com/chenzhuoyu/base64x
+# github.com/fatih/color v1.15.0
+## explicit; go 1.17
+github.com/fatih/color
+# github.com/fatih/structs v1.1.0
+## explicit
+github.com/fatih/structs
 # github.com/gabriel-vasile/mimetype v1.4.2
 ## explicit; go 1.20
 github.com/gabriel-vasile/mimetype
@@ -87,6 +98,11 @@ github.com/goccy/go-json/internal/encoder/vm_color_indent
 github.com/goccy/go-json/internal/encoder/vm_indent
 github.com/goccy/go-json/internal/errors
 github.com/goccy/go-json/internal/runtime
+# github.com/gopherjs/gopherjs v1.17.2
+## explicit; go 1.17
+# github.com/iancoleman/strcase v0.3.0
+## explicit; go 1.16
+github.com/iancoleman/strcase
 # github.com/jacobstr/confer v0.0.0-20160203043014-9a227d38758a
 ## explicit
 github.com/jacobstr/confer
@@ -103,6 +119,8 @@ github.com/jinzhu/inflection
 # github.com/json-iterator/go v1.1.12
 ## explicit; go 1.12
 github.com/json-iterator/go
+# github.com/jtolds/gls v4.20.0+incompatible
+## explicit
 # github.com/klauspost/cpuid/v2 v2.2.4
 ## explicit; go 1.15
 github.com/klauspost/cpuid/v2
@@ -115,6 +133,9 @@ github.com/kr/text
 # github.com/leodido/go-urn v1.2.4
 ## explicit; go 1.16
 github.com/leodido/go-urn
+# github.com/mattn/go-colorable v0.1.13
+## explicit; go 1.15
+github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.19
 ## explicit; go 1.15
 github.com/mattn/go-isatty
@@ -134,6 +155,8 @@ github.com/pelletier/go-toml/v2/unstable
 # github.com/rogpeppe/go-internal v1.9.0
 ## explicit; go 1.17
 github.com/rogpeppe/go-internal/fmtsort
+# github.com/smarty/assertions v1.15.0
+## explicit; go 1.18
 # github.com/spf13/cast v1.5.1
 ## explicit; go 1.18
 github.com/spf13/cast
@@ -204,7 +227,9 @@ golang.org/x/net/idna
 # golang.org/x/sys v0.8.0
 ## explicit; go 1.17
 golang.org/x/sys/cpu
+golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
+golang.org/x/sys/windows
 # golang.org/x/text v0.9.0
 ## explicit; go 1.17
 golang.org/x/text/internal/language
@@ -215,6 +240,8 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
+# golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+## explicit; go 1.11
 # google.golang.org/protobuf v1.30.0
 ## explicit; go 1.11
 google.golang.org/protobuf/encoding/protowire
@@ -233,6 +260,8 @@ google.golang.org/protobuf/runtime/protoiface
 # gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
 ## explicit
 gopkg.in/alexcesaro/quotedprintable.v3
+# gopkg.in/go-playground/assert.v1 v1.2.1
+## explicit
 # gopkg.in/go-playground/validator.v9 v9.31.0
 ## explicit
 gopkg.in/go-playground/validator.v9
