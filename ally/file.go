@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/perror"
 )
 
 //MoveFile : move file from one drive to other

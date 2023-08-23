@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.com/g-harshit/plib/ally"
-	"gitlab.com/g-harshit/plib/constant"
-	"gitlab.com/g-harshit/plib/empty"
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/ally"
+	"github.com/TeamTutx/plib/constant"
+	"github.com/TeamTutx/plib/empty"
+	"github.com/TeamTutx/plib/perror"
 
 	validator "gopkg.in/go-playground/validator.v9"
 )

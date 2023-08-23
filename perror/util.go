@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.com/g-harshit/plib/conf"
-	"gitlab.com/g-harshit/plib/constant"
+	"github.com/TeamTutx/plib/conf"
+	"github.com/TeamTutx/plib/constant"
 )
 
 var debug bool

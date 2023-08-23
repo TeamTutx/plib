@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/TeamTutx/plib/conf"
+	"github.com/TeamTutx/plib/perror"
 	jsoniter "github.com/json-iterator/go"
-	"gitlab.com/g-harshit/plib/conf"
-	"gitlab.com/g-harshit/plib/perror"
 )
 
 var (
@@ -34,7 +34,7 @@ var (
 )
 
 func init() {
-	packageName = "gitlab.com/g-harshit/plib"
+	packageName = "github.com/TeamTutx/plib"
 	SkipLimit = "skip_limit"
 	FetchFields = "fetch_fields"
 	rand.Seed(time.Now().UnixNano())

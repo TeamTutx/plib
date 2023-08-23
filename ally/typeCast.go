@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/perror"
 )
 
 //ItoASlice : Change provided integer slice to string slice

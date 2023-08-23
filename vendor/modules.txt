@@ -1,7 +1,6 @@
-# github.com/BurntSushi/toml v1.2.0
-## explicit; go 1.16
+# github.com/BurntSushi/toml v0.3.1
+## explicit
 github.com/BurntSushi/toml
-github.com/BurntSushi/toml/internal
 # github.com/bytedance/sonic v1.9.1
 ## explicit; go 1.15
 github.com/bytedance/sonic
@@ -28,12 +27,6 @@ github.com/bytedance/sonic/utf8
 # github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311
 ## explicit; go 1.15
 github.com/chenzhuoyu/base64x
-# github.com/fatih/color v1.13.0
-## explicit; go 1.13
-github.com/fatih/color
-# github.com/fatih/structs v1.1.0
-## explicit
-github.com/fatih/structs
 # github.com/gabriel-vasile/mimetype v1.4.2
 ## explicit; go 1.20
 github.com/gabriel-vasile/mimetype
@@ -94,9 +87,6 @@ github.com/goccy/go-json/internal/encoder/vm_color_indent
 github.com/goccy/go-json/internal/encoder/vm_indent
 github.com/goccy/go-json/internal/errors
 github.com/goccy/go-json/internal/runtime
-# github.com/iancoleman/strcase v0.2.0
-## explicit; go 1.16
-github.com/iancoleman/strcase
 # github.com/jacobstr/confer v0.0.0-20160203043014-9a227d38758a
 ## explicit
 github.com/jacobstr/confer
@@ -116,7 +106,7 @@ github.com/json-iterator/go
 # github.com/klauspost/cpuid/v2 v2.2.4
 ## explicit; go 1.15
 github.com/klauspost/cpuid/v2
-# github.com/kr/pretty v0.3.0
+# github.com/kr/pretty v0.3.1
 ## explicit; go 1.12
 github.com/kr/pretty
 # github.com/kr/text v0.2.0
@@ -125,9 +115,6 @@ github.com/kr/text
 # github.com/leodido/go-urn v1.2.4
 ## explicit; go 1.16
 github.com/leodido/go-urn
-# github.com/mattn/go-colorable v0.1.9
-## explicit; go 1.13
-github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.19
 ## explicit; go 1.15
 github.com/mattn/go-isatty
@@ -144,12 +131,10 @@ github.com/pelletier/go-toml/v2/internal/characters
 github.com/pelletier/go-toml/v2/internal/danger
 github.com/pelletier/go-toml/v2/internal/tracker
 github.com/pelletier/go-toml/v2/unstable
-# github.com/rogpeppe/go-internal v1.8.0
-## explicit; go 1.11
+# github.com/rogpeppe/go-internal v1.9.0
+## explicit; go 1.17
 github.com/rogpeppe/go-internal/fmtsort
-# github.com/smartystreets/goconvey v1.8.1
-## explicit; go 1.18
-# github.com/spf13/cast v1.5.0
+# github.com/spf13/cast v1.5.1
 ## explicit; go 1.18
 github.com/spf13/cast
 # github.com/spf13/jwalterweatherman v1.1.0
@@ -200,11 +185,6 @@ github.com/vmihailenco/tagparser/internal/parser
 github.com/vmihailenco/tagparser/v2
 github.com/vmihailenco/tagparser/v2/internal
 github.com/vmihailenco/tagparser/v2/internal/parser
-# gitlab.com/g-harshit/pg-shifter v0.0.0-20220821101315-806ea0e0ca38
-## explicit; go 1.18
-gitlab.com/g-harshit/pg-shifter
-gitlab.com/g-harshit/pg-shifter/model
-gitlab.com/g-harshit/pg-shifter/util
 # golang.org/x/arch v0.3.0
 ## explicit; go 1.17
 golang.org/x/arch/x86/x86asm
@@ -253,16 +233,14 @@ google.golang.org/protobuf/runtime/protoiface
 # gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
 ## explicit
 gopkg.in/alexcesaro/quotedprintable.v3
-# gopkg.in/go-playground/assert.v1 v1.2.1
-## explicit
 # gopkg.in/go-playground/validator.v9 v9.31.0
 ## explicit
 gopkg.in/go-playground/validator.v9
 # gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 ## explicit
 gopkg.in/gomail.v2
-# gopkg.in/yaml.v2 v2.4.0
-## explicit; go 1.15
+# gopkg.in/yaml.v2 v2.3.0
+## explicit
 gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit

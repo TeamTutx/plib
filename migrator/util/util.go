@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/TeamTutx/plib/conf"
+	"github.com/TeamTutx/plib/migrator/model"
 	"github.com/go-pg/pg/v10"
-	"gitlab.com/g-harshit/plib/conf"
-	"gitlab.com/g-harshit/plib/migrator/model"
 )
 
 //variables

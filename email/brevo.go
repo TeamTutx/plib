@@ -4,9 +4,9 @@ import (
 	"net/mail"
 	"os"
 
-	"gitlab.com/g-harshit/plib/conf"
-	"gitlab.com/g-harshit/plib/constant"
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/conf"
+	"github.com/TeamTutx/plib/constant"
+	"github.com/TeamTutx/plib/perror"
 	"gopkg.in/gomail.v2"
 )
 

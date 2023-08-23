@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/TeamTutx/plib/constant"
 	"github.com/jacobstr/confer"
-	"gitlab.com/g-harshit/plib/constant"
 )
 
 // TODO:

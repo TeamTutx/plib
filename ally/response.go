@@ -1,10 +1,10 @@
 package ally
 
 import (
+	"github.com/TeamTutx/plib/conf"
+	"github.com/TeamTutx/plib/constant"
+	"github.com/TeamTutx/plib/perror"
 	"github.com/gin-gonic/gin"
-	"gitlab.com/g-harshit/plib/conf"
-	"gitlab.com/g-harshit/plib/constant"
-	"gitlab.com/g-harshit/plib/perror"
 )
 
 //NewResp : Create New Response Objext

@@ -3,14 +3,14 @@ package main
 import (
 	"fmt"
 
+	"github.com/TeamTutx/plib/database/postgresql"
+	"github.com/TeamTutx/plib/email"
 	"github.com/go-pg/pg/v10"
-	"gitlab.com/g-harshit/plib/database/postgresql"
-	"gitlab.com/g-harshit/plib/email"
 )
 
 func main() {
-	//DBTest()
-	EmailTest()
+	DBTest()
+	//EmailTest()
 }
 
 func DBTest() {
@@ -21,7 +21,7 @@ func DBTest() {
 	)
 	if conn, err = postgresql.Conn(false); err == nil {
 		postgresql.StartLogging = true
-		query := "SELECT user_id FROM pra_use ;"
+		query := "SELECT user_id FROM pra_user ;"
 		if _, err = conn.Query(&userID, query); err == nil {
 			fmt.Println("SUCCESS \n", userID)
 		} else {

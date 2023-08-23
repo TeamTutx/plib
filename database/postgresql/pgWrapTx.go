@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/TeamTutx/plib/ally"
+	"github.com/TeamTutx/plib/constant"
+	"github.com/TeamTutx/plib/perror"
 	"github.com/go-pg/pg/v10"
 	"github.com/go-pg/pg/v10/orm"
-	"gitlab.com/g-harshit/plib/ally"
-	"gitlab.com/g-harshit/plib/constant"
-	"gitlab.com/g-harshit/plib/perror"
 )
 
 //WrapPGTx : wrap pg tx

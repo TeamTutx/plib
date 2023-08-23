@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"strings"
 
+	"github.com/TeamTutx/plib/constant"
 	"github.com/go-pg/pg"
 	"github.com/jinzhu/gorm"
-	"gitlab.com/g-harshit/plib/constant"
 )
 
 //VError : validation error

@@ -2,7 +2,7 @@ package constant
 
 //database query constants
 const (
-	PackageName      = "gitlab.com/g-harshit/plib"
+	PackageName      = "github.com/TeamTutx/plib"
 	MultiMatchOP     = "multi_match"
 	TermOP           = "term"
 	TermsOP          = "terms"

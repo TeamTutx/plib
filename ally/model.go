@@ -3,7 +3,7 @@ package ally
 import (
 	"net/http"
 
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/perror"
 )
 
 //Resp : Response Model

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/perror"
 )
 
 //MergeMap will merge two maps

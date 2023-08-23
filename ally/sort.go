@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/perror"
 )
 
 var chunkifyRegexp = regexp.MustCompile(`(\d+|\D+)`)

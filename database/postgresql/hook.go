@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/TeamTutx/plib/ally"
 	"github.com/go-pg/pg/v10"
-	"gitlab.com/g-harshit/plib/ally"
 )
 
 func (d Hook) BeforeQuery(c context.Context, q *pg.QueryEvent) (context.Context, error) {

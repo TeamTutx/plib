@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/TeamTutx/plib/conf"
+	"github.com/TeamTutx/plib/constant"
+	"github.com/TeamTutx/plib/perror"
 	"github.com/go-pg/pg/v10"
-	"gitlab.com/g-harshit/plib/conf"
-	"gitlab.com/g-harshit/plib/constant"
-	"gitlab.com/g-harshit/plib/perror"
 )
 
 var (

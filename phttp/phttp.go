@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"gitlab.com/g-harshit/plib/perror"
+	"github.com/TeamTutx/plib/perror"
 )
 
 //HTTPReq Parameters required to make http call
