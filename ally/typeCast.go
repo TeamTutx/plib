@@ -113,8 +113,8 @@ func IftoASlice(data interface{}) (stringData []string) {
 	return
 }
 
-//StrintToInt64 : Convert string to Int64
-func StrintToInt64(data string) (val int64, err error) {
+//StringToInt64 : Convert string to Int64
+func StringToInt64(data string) (val int64, err error) {
 	if val, err = strconv.ParseInt(data, 10, 64); err != nil {
 		err = perror.CustomError("Not Able to typecast",
 			data, "to int64")
@@ -123,8 +123,8 @@ func StrintToInt64(data string) (val int64, err error) {
 	return
 }
 
-//StrintToForceInt64 : Convert string to Int64 witout Error
-func StrintToForceInt64(data string) (val int64) {
-	val, _ = StrintToInt64(data)
+//StringToForceInt64 : Convert string to Int64 witout Error
+func StringToForceInt64(data string) (val int64) {
+	val, _ = StringToInt64(data)
 	return
 }
