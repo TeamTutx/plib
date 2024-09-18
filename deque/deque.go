@@ -51,3 +51,21 @@ func (d *Deque[T]) IsEmpty() bool {
 func (d *Deque[T]) Size() int {
 	return len(d.data)
 }
+
+// Front returns the front element without removing it.
+func (d *Deque[T]) Front() (T, bool) {
+	if len(d.data) == 0 {
+		var zeroValue T
+		return zeroValue, false
+	}
+	return d.data[0], true
+}
+
+// Back returns the back element without removing it.
+func (d *Deque[T]) Back() (T, bool) {
+	if len(d.data) == 0 {
+		var zeroValue T
+		return zeroValue, false
+	}
+	return d.data[len(d.data)-1], true
+}
