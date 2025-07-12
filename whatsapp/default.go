@@ -29,7 +29,7 @@ func GetDefaultWhatsappService() *DefaultWhatsappService {
 func (w *DefaultWhatsappService) Send(requestPayload WhatsappModel) (err error) {
 	var resp phttp.HTTPRes
 
-	url := fmt.Sprintf("%s/%s", w.host, "/send-message")
+	url := fmt.Sprintf("%s/%s", w.host, "api/send-message")
 	req := phttp.NewReq("POST", url)
 	req.Body = requestPayload
 	req.Header = map[string]string{
