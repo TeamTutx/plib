@@ -3,7 +3,9 @@ package whatsapp
 import (
 	"fmt"
 
+	"github.com/TeamTutx/plib/ally"
 	"github.com/TeamTutx/plib/conf"
+	"github.com/TeamTutx/plib/constant"
 	"github.com/TeamTutx/plib/perror"
 	"github.com/TeamTutx/plib/phttp"
 )
@@ -41,7 +43,11 @@ func (w *DefaultWhatsappService) Send(requestPayload WhatsappModel) (err error) 
 	}
 
 	if resp.StatusCode != 200 {
-		err = perror.HTTPError(nil, "error while sending notificalion")
+		if resp.StatusCode == 429 {
+			err = perror.BadReqError(nil, "expeccting 200 got 429").SetMsg("Too many request. Please try after some time")
+			return
+		}
+		err = perror.HTTPError(nil, "error while sending notificalion, error code : "+ally.IfToA(resp.StatusCode)).SetMsg(constant.SomethingWentWrong)
 		return
 	}
 

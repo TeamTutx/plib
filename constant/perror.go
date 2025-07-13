@@ -6,15 +6,16 @@ import (
 
 //Error Messages
 const (
-	RemoveMappingMsg  = "Please remove it's all mapping before delete"
-	InvalidReqMsg     = "Invalid Request, Please contact system administrator for further clarification."
-	ForbiddenMsg      = "You are not allowed to perform this operation. Please contact system administrator."
-	BlandReqMsg       = "Blank request, Please provide input to process"
-	NotFoundMsg       = "Record not found"
-	ServerErrorMsg    = "Sorry unable to process this request. Please Try Again"
-	DuplicateEntryMsg = "Record Already Exists"
-	ScoutRunningMsg   = "Scout Already Running"
-	RequestError      = "HTTP request could not intialized"
+	RemoveMappingMsg   = "Please remove it's all mapping before delete"
+	InvalidReqMsg      = "Invalid Request, Please contact system administrator for further clarification."
+	ForbiddenMsg       = "You are not allowed to perform this operation. Please contact system administrator."
+	BlandReqMsg        = "Blank request, Please provide input to process"
+	NotFoundMsg        = "Record not found"
+	ServerErrorMsg     = "Sorry unable to process this request. Please Try Again"
+	DuplicateEntryMsg  = "Record Already Exists"
+	ScoutRunningMsg    = "Scout Already Running"
+	RequestError       = "HTTP request could not intialized"
+	SomethingWentWrong = "Something went wrong, Please contact system administrator for further clarification."
 )
 
 // Error Code. PLEASE Map New Error Code To The HTTP Code Map Below.
